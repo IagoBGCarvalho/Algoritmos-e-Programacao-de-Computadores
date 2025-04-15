@@ -10,7 +10,7 @@ while (Contador == 0):
     Sucessor = (Numero + 1)
     Antecessor = (Numero - 1)
     # Saída de dados
-    print(f"Número: {Numero} Sucessorr: {Sucessor} Antecessor: {Antecessor}")
+    print(f"Número: {Numero} Sucessor: {Sucessor} Antecessor: {Antecessor}")
     Contador = input(f"Desejar repetir? Digite <S> para SIM e <N> para NÃO: ")
     
     if (Contador == "S"):
