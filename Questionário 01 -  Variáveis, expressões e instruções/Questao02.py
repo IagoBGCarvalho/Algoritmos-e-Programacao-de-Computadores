@@ -1,8 +1,8 @@
 # Entrada de dados
-sabor_bolo, quantidade_pedacos = input().split()
+sabor_bolo, quantidade_pedacos = input().split() # split separa os dados em várias variáveis
 
 # Processamento
-quantidade_pedacos = int(quantidade_pedacos)
+quantidade_pedacos = int(quantidade_pedacos) # converte a string em inteiro
 valor_final = (quantidade_pedacos * 3.25)
 
 # Saída de dados
