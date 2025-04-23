@@ -1,11 +1,8 @@
 # Entrada de dados
-x = int(input())
-y = int(input())
+m = int(input())
 
-# Saida de dados
-if x > y:
-    print(f"{x} é maior que {y}")
-elif x < y:
-    print(f"{x} é menor que {y}")
+# Processamento e saída
+if m%2 == 0:
+    print("Fome de comida! Queremos arroz e feijão")
 else:
-    print(f"{x} é igual a {y}")
+    print("Só um lanchinho cai bem!")
