@@ -2,7 +2,6 @@
 quantidade = 0
 salario_total = 0.00
 salario_medio = 0.00
-nome_colaborador = ""
 
 # Entrada de dados e processamento
 while True:
