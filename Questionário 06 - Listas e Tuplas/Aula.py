@@ -6,7 +6,7 @@ lista_floats = [2.4, 5.10, 8.3, 3.50]
 print(lista_floats)
 print(type(lista_floats[0]))
 
-lista_listas = [[10, "oi", True], ["bom dia", -20.50, 1]]
+lista_listas = [[10, "oi", True], ["bom dia", -20.50, 1]] # Lista aninhada
 print(lista_listas)
 print(type(lista_listas[0]))
 
