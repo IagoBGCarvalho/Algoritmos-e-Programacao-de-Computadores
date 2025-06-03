@@ -4,8 +4,10 @@ def refrao(n):
         print(item)
 
 def estrofe(n):
-    lista_estrofe = [str(n) +" patinhos", "Foram passear", "Além das montanhas", "Para brincar"]
-    for item in lista_estrofe:
-        print(item)
-    refrao(n)
-    
+    for i in range(n):
+        lista_estrofe = [str(n - i) +" patinhos", "Foram passear", "Além das montanhas", "Para brincar"]
+        for item in lista_estrofe:
+            print(item)
+        refrao(n)
+
+estrofe(2)
