@@ -14,7 +14,7 @@ for i in range(quantidade_alunos):
 nota_referencia = float(input())
 
 # Processamento
-for nome_aluno, nota_aluno in dicionario_alunos_notas.items():
+for nome_aluno, nota_aluno in dicionario_alunos_notas.items(): # O for com duas variáveis em um dicionário faz um tuple unpacking, ou seja, atribui cada item do par a uma variável. O .items que está trasnformando o dicionário em uma lista de tuplas.
     if nota_aluno == nota_referencia: 
         alunos_com_mesma_nota.append(nome_aluno) # Para procurar um valor em um dicionário, é necessário percorrer ele utilizando duas variáveis dentro do for, uma para a chave e a outra para o valor.
 

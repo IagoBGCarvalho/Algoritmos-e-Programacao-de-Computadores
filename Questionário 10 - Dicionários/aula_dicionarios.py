@@ -48,7 +48,7 @@ print("banana" not in estoque)
 # Usar métodos: objeto.método()
 print(estoque_dicionario.keys()) # Mostra as chaves presentes no dicionário
 print(estoque_dicionario.values()) # Mostra os valores presentes no dicionário
-print(estoque_dicionario.items()) # Mostra todos os items presentes no dicionário
+print(estoque_dicionario.items()) # transforma o dicionário em uma sequência de tuplas (pares), onde cada tupla contém a chave e o valor correspondentes.
 
 """ Utiliza-se "help(dict) para ver todos os métodos de dicionários no interpretador do python"""
 
