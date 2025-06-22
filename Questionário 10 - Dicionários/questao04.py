@@ -32,6 +32,6 @@ if aluno_destinatario in dicionario_turma:
         print(f"O aluno {aluno_destinatario} foi aprovado com média {media_destinatario:.2f}.")
     else:
         print(f"Destinatário: {email_destinatario}")
-        print(f"O aluno {aluno_destinatario} foi reprovado com média {media_destinatario}.")
+        print(f"O aluno {aluno_destinatario} foi reprovado com média {media_destinatario:.2f}.")
 else:
     print(f"O aluno {aluno_destinatario} não está na turma.")
